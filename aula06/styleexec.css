@@ -1,0 +1,33 @@
+/* resetando o html */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: darkblue;
+    padding: 50px;
+}
+
+div {
+    margin: 0 auto;
+    width: 20em;
+    background-color: bisque;
+    border: 3px solid #a8a5a5;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+#ltdor {
+    width: 20em;
+    background-color: bisque;
+    border: 3px solid #a8a5a5;
+    text-align: center;
+    padding: 10px;
+}
