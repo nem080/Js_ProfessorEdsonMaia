@@ -3,7 +3,11 @@
 /*
 Comentario em bloco
 */
-document.write(`Conteudo js <br>`)
+let textSub = document.getElementById('subText');
+textSub.innerHTML = `Conteudo js <br><br><br>`
+textSub.style.textTransform = 'upperCase';
+textSub.style.textAlign = 'center';
+// document.write()
 // criar variaveis use let ou var
 let produto = 'Arroz'
 let quant = 2
