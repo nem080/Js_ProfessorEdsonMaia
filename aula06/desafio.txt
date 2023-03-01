@@ -1,0 +1,49 @@
+quatro desafios 
+1- criar uma estrutura na
+qual você conseguir exibir o título pode
+ser um título H2 aqui para poder ficar
+mais fácil e você crie variáveis para
+armazenar o seguinte dado o nome de um
+lutador a nacionalidade dele aí e ele o
+peso e altura e depois utilizando
+template string você vai fazer a escrita
+desses conteúdos cada uma Aline sendo
+que em idade peso e altura você terá que
+colocar terminar em idade a palavra anos
+em peso quilograma em altura m de metros
+
+já o segundo desafio você vai ter que
+receber um título colocar uma data só
+que aqui na data eu quero que
+Obrigatoriamente você Trabalho tanto as
+datas como a mensagem e autoria da
+mensagem eu quero que você queria
+constante só que você vai criar uma
+constante para o dia uma constante para
+o mês uma constante para o ano
+utilizando o tempo eles que tem que você
+vai fazer essa concatenação para
+escrever essa data abreviado você vai
+criar uma constante para armazenar uma
+mensagem correspondente a esse dia e
+você vai criar uma constante para poder
+armazenar autoria e vai fazer escrita da
+tela como está aqui para vocês quero que
+vocês criem para efeito do exercício uma
+rede meses do ano não precisa ser de
+todos os meses eu coloquei aqui apenas
+os os meses do ano se vocês quiserem
+fazer dos 12 pode não tem problema mas
+além de fazer o Array Eu quero que você
+se inscrevam os conteúdos deles de forma
+concatenada utilizando o tempo a gente
+tem e utilizem a, para poder concatenar
+tudo bem eu coloquei aqui... Mas não tem
+nada a ver com um Fred operei faz isso
+aqui é só uma sugestão que para cá tem
+mais conteúdo crie um objeto chamado o
+jogo que armazene o título de um jogo da
+que eu coloquei a palavra jogo mas pode
+ser título quem desenvolveu ele e qual
+foi o ano do lançamento basicamente só
+esses três atributos então basicamente
