@@ -1,33 +1,50 @@
+// titulo pagina
 let titulo = document.getElementById('titulo');
 titulo.innerHTML = 'Exercicios js';
 titulo.style.textAlign = 'center';
+titulo.style.margin = '40px'
+titulo.style.fontSize = '30px'
 titulo.style.color = '#666';
 
 
 
+// card lutador  
+const nome = document.querySelector('#nomeLuta');
+let nasci = document.getElementById('paisLutador');
+let idade = document.getElementById('idadeLutador')
+let kl = document.getElementById('klLutador');
+let altura = document.querySelector('#alturaLutador');
 
-let dadosLutador = document.getElementById('ltdor')
-// Criando um objeto Lutador.
-let lutador = {
-    nome: 'luta nada ',
-    nacionalidade:'Brasolivas',
-    Idade : 35,
-    Peso : 195,
-    Altura : 1.89
-}
-dadosLutador.innerHTML = `<strong><h2>Dados dos lutador</h2></strong><br> Nome: ${lutador.nome}<br> Nacionalidade: ${lutador.nacionalidade}<br> Idade: ${lutador.Idade}<br>Peso: ${lutador.Peso}<br> Altura: ${lutador.Altura}`
+// manipulando dados lutador
+nome.innerHTML = `Balrog Street fighter`;
+nasci.innerText= `Brasil`;
+idade.innerText = `39 anos`;
+kl.innerText = `189 Kg`;
+altura.innerText = `190 m`;
 
-let mensgDia = document.querySelector('#msg')
-let dia = 01
-let mes = 03
-let ano = 2023
-let text = 'Ser gênio é algo que não sou, mas o que define meu perfil é ser curioso e sonhador.Todo mundo pode ser inteligente, basta ser curioso e não ter medo de errar.'
+// mgs de dia
+let dia = 12;
+let mes = 10;
+let anoNasc = 1987;
+let diaHoje = document.querySelector('#data')
+const tituloMsg = document.querySelector('#tituloMsg');
+const corpoMsg = document.querySelector('#corpMsg');
+const autorMsg = document.querySelector('#autMsg');
+// manipulando dados lutador
+diaHoje.innerHTML = `${dia}/${mes}/${anoNasc}`;
+diaHoje.style.textAlign = 'left'
+diaHoje.style.padding = '10px'
+corpoMsg.innerText = `"Existe um momento na vida de cada pessoa  que é possível sonhar e realizar nossos sonhos… e esse momento tão fugaz chama-se presente e tem a duração do tempo que passa."`;
 
-mensgDia.innerHTML = `<strong> Estamos no dia ${dia}/${mes}/${ano} </strong>. </br> <h2>Mensagem Do Dia</h2> </br> ${text} <br>`
+corpoMsg.style.padding = '20px';
 
+autorMsg.innerText = `Mario Quintana`;
+autorMsg.style.textAlign ='right';
+autorMsg.style.padding = '20px';
 
-const calendario = [
-    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dez'
-]
-
-document.write(calendario)
+// Meses do ano 
+let mess = document.querySelector('#mesesss');
+let tituloMeses = document.querySelector('.tituloMes');
+let mesesAno = [' janeiro', ' fevereiro', ' março', ' abril', ' maio', ' junho'];
+mess.innerText =`${mesesAno}`
+mess.style.textTransform = 'uppercase'

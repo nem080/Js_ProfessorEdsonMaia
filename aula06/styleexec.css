@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500;1,700&family=Shantell+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 /* resetando o html */
 * {
     margin: 0;
@@ -13,13 +15,14 @@ body {
     padding: 50px;
 }
 
+/* pega todos as div */
 div {
     margin: 0 auto;
     width: 20em;
     background-color: bisque;
     border: 3px solid #a8a5a5;
     text-align: center;
-    padding: 10px;
+
 }
 
 
@@ -30,4 +33,61 @@ div {
     border: 3px solid #a8a5a5;
     text-align: center;
     padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(138, 88, 56);
+    margin-bottom: 20px;
+}
+
+#ltdor img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#ltdor h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+#ltdor h3,
+.lutar {
+    width: 70%;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #dfdcdc;
+    margin: 10px 50px;
+
+}
+
+/* card msg */
+
+#msg {
+    width: 20em;
+    background-color: bisque;
+    border: 3px solid #a8a5a5;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url(../img/pexels-monstera-7794422.jpg);
+    margin-bottom: 20px;
+}
+
+#msg #tituloMsg {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    color: #140101;
+    text-align: left;
+}
+
+/* meses do ano  */
+
+.tituloMes {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    color: #140101;
+    padding: 6px 0 10px 0;
 }
