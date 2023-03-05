@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500;1,700&family=Shantell+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500;1,700&family=Shantell+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 /* resetando o html */
 * {
@@ -15,6 +16,7 @@ body {
     padding: 50px;
 }
 
+
 /* pega todos as div */
 div {
     margin: 0 auto;
@@ -28,6 +30,7 @@ div {
 
 
 #ltdor {
+    font-family: 'Roboto', sans-serif;
     width: 20em;
     background-color: bisque;
     border: 3px solid #a8a5a5;
@@ -64,6 +67,7 @@ div {
 /* card msg */
 
 #msg {
+    font-family: 'Dancing Script', sans-serif;
     width: 20em;
     background-color: bisque;
     border: 3px solid #a8a5a5;
@@ -75,6 +79,7 @@ div {
 }
 
 #msg #tituloMsg {
+    font-family: 'Roboto', Dancing Script;
     text-transform: uppercase;
     font-size: 1em;
     font-weight: bold;
@@ -83,11 +88,57 @@ div {
 }
 
 /* meses do ano  */
+#meses {
+   
+    margin-bottom: 20px;
+}
 
 .tituloMes {
     text-transform: uppercase;
-    font-size: 1em;
+    font-family: 'roboto', serif;
+    font-size: 1.2em;
     font-weight: bold;
     color: #140101;
     padding: 6px 0 10px 0;
+}
+
+/* card jogo */
+#cardJogo {
+    width: 20em;
+    background-color: bisque;
+    border: 3px solid #a8a5a5;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url(../img/fifa23-2.jpeg);
+    background-size: 22em;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#cardJogo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #0be7b7;
+}
+
+#cardJogo span {
+    padding-right: 200px;
+    color: rgb(181, 192, 60);
+    text-transform: uppercase;
+    background-color: #a8a5a557;
+}
+
+#cardJogo p {
+    width: 70%;
+    height: 20px;
+    border-radius: 7px;
+    text-align: left;
+    background-color: #dfdcdc67;
+    margin: 10px 50px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: #020202;
 }

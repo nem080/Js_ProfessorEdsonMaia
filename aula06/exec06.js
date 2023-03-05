@@ -17,7 +17,7 @@ let altura = document.querySelector('#alturaLutador');
 
 // manipulando dados lutador
 nome.innerHTML = `Balrog Street fighter`;
-nasci.innerText= `Brasil`;
+nasci.innerText = `Brasil`;
 idade.innerText = `39 anos`;
 kl.innerText = `189 Kg`;
 altura.innerText = `190 m`;
@@ -39,12 +39,32 @@ corpoMsg.innerText = `"Existe um momento na vida de cada pessoa  que é possíve
 corpoMsg.style.padding = '20px';
 
 autorMsg.innerText = `Mario Quintana`;
-autorMsg.style.textAlign ='right';
+autorMsg.style.textAlign = 'right';
 autorMsg.style.padding = '20px';
 
 // Meses do ano 
 let mess = document.querySelector('#mesesss');
 let tituloMeses = document.querySelector('.tituloMes');
 let mesesAno = [' janeiro', ' fevereiro', ' março', ' abril', ' maio', ' junho'];
-mess.innerText =`${mesesAno}`
-mess.style.textTransform = 'uppercase'
+mess.innerText = `${mesesAno}`;
+mess.style.textTransform = 'uppercase';
+
+// card jogo
+let corpoCradJogo = document.querySelector('#cardJogo')
+let jogo = {
+    titulo: "FiFA 23",
+    Desenvolvedor: 'Fulano de Tal',
+    AnoDeLançamento: 2023
+};
+//  manipulando um obejt
+document .write(`<div id="cardJogo">
+                        <h2>Jogo</h2>
+                        <span>titulo:</span>
+                        <p>Fifa 23</p>
+                        <span>Desenvolvudo:</span>
+                        <p>Fulano De Tal</p>
+                        <span>Lançamento:</span>
+                        <p>2023</p>
+                        </div>
+                        `)
+// stylo do card jogo
