@@ -1,17 +1,20 @@
 /* Aula 13 de JS sobre Estruturas de Repeticao */
 
+// array de carro
 let carros = ['Fusca', 'Brasília', 'Gurgel']
 
 /* FOR = para faca */
 /* i = iterador, interacao ou index */
+// percorrendo de 1 a 5 
+document.write('<br> ordem crecente <br> ');
 for (let i = 1; i <= 5; i++) {
     document.write(i + " ")
 }
-
+document.write('<br> decrecente <br> ');
 for (let i = 5; i >= 1; i--) {
     document.write(i + " ")
 }
-
+// <============================================================>
 for (let i = 0; i < carros.length; i++) {
     document.write(`<li>${carros[i]}</li>`)
 }
