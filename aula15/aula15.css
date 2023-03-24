@@ -45,14 +45,30 @@ section {
     background: #ffc107;
 }
 
+
+.conteudo{
+    width: 400px;
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    padding:70px;
+    border-radius: 20px;
+    
+}
+.conteudo h1, label, p{
+    color: #ff3d00;
+}
+
 /* FORMULARIO */
 form {
-    margin: 1rem;
+    margin: 3rem;
 }
 
 /* DIV DOS INPUTS */
 .form-group {
     margin: 0.625rem;
+    padding: 10px;
+    text-align: center;
 }
 
 /* INPUTS */
