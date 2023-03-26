@@ -14,31 +14,33 @@
     <main id='tela-principal'>
         <h1>Jogue o Dado</h1>
         <section class='conteudo'>
-            <input type="text" name="jogador1" id="jogador1" placeholder="Jogador 1" autofocus>
-            <input type="text" name="jogador2 " id="jogador2" placeholder = "Jogador 2">
+            <input type="text" name="jogador1" id="jogador1" placeholder="Jogador 1" autofocus required>
+            <input type="text" name="jogador2 " id="jogador2" placeholder="Jogador 2">
 
             <p id='sorteado' class='centro'>?</p>
             <figure>
                 <img src="../img/dado/0.png" alt="Dado" id='imgDado' />
             </figure>
 
-            <div id="resp">
-                Resultado.
-                
-            </div>
         </section>
+
+        <div style="text-align:center; color:black;" id="resp">
+            Resultado.
+
+        </div>
         <div class='centro'>
             <button id='btnSortear'>Jogar o Dado</button>
-            <button id='btnlimpar'>Zerar para jogar</button>
+            <button id='btnLimpar'>Zerar para jogar</button>
         </div>
 
-        
-    </main ain>
+
+    </main>
 
     <audio preload id='dadoRolando' src="../assets/dado-rolando.mp3" type="audio/mpeg">
     </audio>
 
     <script src="aula16.js"></script>
+
 </body>
 
 </html>
